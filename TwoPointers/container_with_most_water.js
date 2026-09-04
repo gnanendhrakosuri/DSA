@@ -1,12 +1,11 @@
 //https://leetcode.com/problems/container-with-most-water/description/
 
+// Input: height = [1,8,6,2,5,4,8,3,7]
+// Output: 49
 
+// Time complexity: O(N)
+// Space complexity: O(1)
 
-//Js:
-/**
- * @param {number[]} height
- * @return {number}
- */
 var maxArea = function (arr) {
     let i = 0;
     let j = arr.length - 1;
